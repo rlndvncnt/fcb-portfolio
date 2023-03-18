@@ -29,12 +29,12 @@ body{
 	opacity: 90%;
 	background:#8c4507;
 	min-height: 100vh;
+	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	width: 80%;
 }
 .intro{
-	margin-top: 20px;
 	padding: 30px 40px;
 	text-align: center;
 }
@@ -60,5 +60,7 @@ body{
 }
 .description p{
 	text-indent: 50px;
-	font-weight: bold;
+	font-weight: lighter;
+	line-height: 2.1em;
+	font-style: italic;
 }
