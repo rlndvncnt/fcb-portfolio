@@ -22,19 +22,32 @@ body{
 .container-fluid{
 	width: 90%;
 	margin: auto;
+	position: relative;
 }
 
 #landing{
 	margin: auto;
-	opacity: 90%;
-	background:#8c4507;
+	opacity: 99%;
 	min-height: 100vh;
 	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	width: 80%;
 }
+
+.floating-bg{
+	margin: auto;
+	background:#8c4507;
+	opacity: 90%;
+	z-index: 0.1;
+	height: 100vh;
+	width: 78%;
+	position: fixed;
+	left: 11%;
+}
+
 .intro{
+	margin-top: 20px;
 	padding: 30px 40px;
 	text-align: center;
 }
@@ -57,10 +70,31 @@ body{
 	margin-top: 30px;
 	padding: 30px 80px;
 	text-align: justify;
+	margin-bottom: 100px;
 }
 .description p{
 	text-indent: 50px;
 	font-weight: lighter;
 	line-height: 2.1em;
 	font-style: italic;
+}
+
+footer{
+	height: 50px;
+	font-weight: lighter;
+	font-size: 0.8em;
+    text-align: center;
+    width: 78%;
+    opacity: 90%;
+    margin: auto;
+    margin-top: 500px;
+    margin-bottom: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 0px 10px;
+    bottom: 0;
+    left: 11%;
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
 }
