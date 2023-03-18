@@ -37,8 +37,8 @@ body{
 
 .floating-bg{
 	margin: auto;
-	background:#8c4507;
-	opacity: 95%;
+	background:#414141;
+	opacity: 80%;
 	z-index: 0.1;
 	height: 100vh;
 	width: 78%;
